@@ -26,6 +26,10 @@ output "do_id" {
   value = "${digitalocean_droplet.web.id}"
 }
 
+output "ipv4_address {
+  value = "${digitalocean_droplet.web.ipv4_address}"
+}
+
 output "do_money" {
   value = "${digitalocean_droplet.web.price_hourly}"
 }
