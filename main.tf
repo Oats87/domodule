@@ -26,7 +26,7 @@ output "do_id" {
   value = "${digitalocean_droplet.web.id}"
 }
 
-output "ipv4_address {
+output "ipv4_address" {
   value = "${digitalocean_droplet.web.ipv4_address}"
 }
 
